@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px hsla(0, 100%, 90%, 0.3);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d7bde2;
+}
+
+.subject {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #3498db;
+}
+
+.subject-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.coefficient {
+    background-color: #d4e6f1;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input-field {
+    flex: 1;
+    min-width: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.subject-average {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.result {
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+
+.final-average {
+    font-size: 26px;
+    font-weight: bold;
+}
