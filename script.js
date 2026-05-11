@@ -3,7 +3,7 @@ const subjectsData = [
     { name: "MPD", code: "MPD", coefficient: 2, type: "exam_td" },
     { name: "Four et chaudières", code: "FC", coefficient: 2, type: "exam_td" },
     { name: "thrmo", code: "TH", coefficient: 2, type: "exam_td" },
-    { name: "stat", code: "ST", coefficient: 3, type: "exam_td" },
+    { name: "stat", code: "ST", coefficient: 3, type: "exam_tp_td" },
     { name: "environment", code: "EN", coefficient: 1, type: "exam" },
     { name: "simulation", code: "SM", coefficient: 2, type: "exam_tp" },
     { name: "elaboration", code: "EL", coefficient: 1, type: "exam" },
