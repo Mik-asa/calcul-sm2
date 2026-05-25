@@ -9,7 +9,7 @@ const subjectsData = [
     { name: "elaboration", code: "EL", coefficient: 1, type: "exam" },
     { name: "entreprenariat", code: "ER", coefficient: 1, type: "exam" },
     { name: "stage", code: "SG", coefficient: 1, type: "exam" },
-    { name: "TP GC", code: "TPGC", coefficient: 1, type: "exam" }
+    { name: "TP GC", code: "TPGC", coefficient: 2, type: "exam" }
 ];
 
 const container = document.getElementById("subjects-container");
